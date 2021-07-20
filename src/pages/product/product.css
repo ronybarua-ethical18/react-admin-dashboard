@@ -1,0 +1,112 @@
+.product{
+    flex:4;
+    padding:20px;
+}
+.productTitleContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.addProductButton{
+    border:none;
+    border-radius: 25px;
+    color:white;
+    font-size: 14px;
+    background-color:teal;
+    cursor:pointer;
+    padding:7px 12px;
+}
+.productTop{
+    display:flex;
+}
+.productTopLeft, .productTopRight{
+    flex:1;
+}
+.productTopRight{
+   padding:20px;
+   margin:20px;
+   -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+   box-shadow: 0px 0px 15px -10px #000000;
+}
+.productTopInfo{
+    width:180px;
+    display:flex;
+    flex-direction: column;
+}
+.productTopItem{
+    display:flex;
+    margin-bottom: 5px;
+}
+.productHeading{
+    font-weight: 600;
+}
+.productImageWithTitle{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.productTopRightImage{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.productTopRightTitle{
+    font-weight: 600;
+}
+.productTopItem{
+    display:flex;
+    justify-content: space-between;
+}
+.productBottom{
+   padding:20px;
+   margin:20px;
+   -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+   box-shadow: 0px 0px 15px -10px #000000;
+}
+.productForm{
+    display:flex;
+    justify-content: space-between;
+}
+.productFormLeft{
+    display:flex;
+    flex-direction: column;
+}
+.productFormLeft>label{
+    margin-bottom: 10px;
+    color:gray;
+}
+.productFormLeft>input{
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid gray;
+    padding:5px;
+}
+.productFormLeft>select{
+    margin-bottom: 10px;
+}
+.productImageUpload{
+    width: 100px;
+    height:100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.productFormRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productUpload{
+    display:flex;
+    align-items: center;
+}
+.productButton{
+    border:none;
+    padding:7px 12px;
+    background-color:teal;
+    color:white;
+    font-size: 14px;
+    cursor:pointer;
+    border-radius:25px;
+}
